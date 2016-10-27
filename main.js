@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import * as db from './mongoSchema.js';
 import createLoaders from './dataLoaders.js';
 import expressGraphql from 'express-graphql';
-import { schema, root } from './gqlschema.js';
+import { schema, root } from './schemaimpl.js';
 let app = express()
 
 
